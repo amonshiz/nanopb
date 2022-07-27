@@ -18,5 +18,8 @@ cc_library(
         "pb_encode.h",
     ],
     include_prefix = "nanopb",
+    includes = [
+        ".",
+    ],
     visibility = ["//visibility:public"],
 )
